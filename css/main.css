@@ -1,0 +1,176 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+ul{
+	list-style-type: none;
+	background-color: rgba(0,0,0,0.2);
+	border:1px solid rgba(0,0,0,0.2);
+	padding: 1% 1% 0% 1%;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+li{
+	display: inline-block;
+}
+li a{
+	text-decoration: none;
+	padding:10px 15px 10px 10px;
+	float: right;
+	color:white;
+}
+li a:hover{
+	text-decoration: none;
+	padding:10px 15px 10px 10px;
+	float: right;
+	color:#0bf1d9;
+}
+li img{
+	height: 25px;
+	width: 80px;
+	float: right;
+	padding: 5px 5px 0px 4px;
+}
+.contact ,.ast button  {
+	border:#0bf1d9 1px solid;
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	padding: 10px 20px;
+
+}
+.contact:hover ,.ast button:hover {
+	border: #0bf1d9 1px solid;
+	border-radius: 25px;
+	background-color: white;
+	color:black !important;
+	padding: 10px 20px;
+}
+
+.ast{
+	background-image: url(../img/ground.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 750px;
+
+}
+
+.content{
+	font-size: 25px;
+	text-align: center;
+	font-family: Agency FB;
+	margin: 120px 20px;
+
+}
+.content input[type=text]{
+	border-radius: 25px;
+	border: none
+}
+.content input[type=text]:hover{
+	border-radius: 25px;
+	border: none;
+	background-color:#0bf1d9;
+	color: black;
+}
+.content h1 ,.content p {
+	padding: 1%;
+	color:#e3e3e3;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.threecontent{
+	float: left;
+	width: 25%;
+	margin: 2.5%;
+	padding:15px;
+	font-size: 24px;
+}
+
+
+.threecontent h5{
+	font-size: 25px;
+	text-align: center;
+	padding: 0% 1% 2% 1%;
+}
+.conatiner2{
+	margin: 200px 0px;
+	padding: 100px
+}
+
+
+
+
+
+.clr{
+	clear: both;
+}
+
+.conatiner3{
+	background-color: #58b0d0;
+}
+.content2{
+	font-size: 24px;
+	text-align: center;
+}
+.threecontent3{
+	width: 25%;
+	display: inline-block;
+	margin: 2%; 
+}
+
+
+.threecontent3 img{
+	height: 250px;
+	border-radius: 25px;
+}
+
+
+
+.content4{
+	background-color: white;
+	width: 40%;
+	margin: 30px;
+	float: left;
+	font-size: 19px;
+}
+.content4 li{
+	margin: 1.5%;
+	display:block;
+	background-color: white;
+}
+.content4 ul{
+	background-color: white;
+	border:none;
+}
+
+
+.content4 button{
+	background-color: black;
+	color: white;
+	border: 2px solid #58b0d0;
+	border-radius: 25px;
+	padding: 10px 20px;
+
+}
+.content4 button:hover{
+	background-color: white;
+	color: black;
+	border:2px solid #58b0d0;
+	border-radius: 25px;
+	padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
